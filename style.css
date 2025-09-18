@@ -67,7 +67,7 @@ nav a {
   opacity: 0.8;
   margin-top: auto;
   font-size: 1.85rem;
-}
+ }
 
 
 
@@ -132,7 +132,7 @@ section .main-p, #skills li{
 }
 
 .img{
-  background: url("./uday.png");
+  background: url("./images/uday.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
