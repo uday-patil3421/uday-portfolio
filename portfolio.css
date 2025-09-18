@@ -1,0 +1,160 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  color: black;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  max-height: fit-content;
+}
+
+.heading {
+  margin: 18px 0 0 0;
+  /* background-color: red; */
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  line-height: 6px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(62, 79, 103);
+  /* z-index: 1000; */
+  /* background-color: white; */
+  padding: 1rem 0;
+  border-bottom: 1.4px solid rgba(63, 62, 62, 0.758) ;
+}
+
+.dev-icon{
+  font-size:2.4rem;
+  margin-left: 2.8rem;
+ color:rgb(34, 207, 234);
+}
+
+.dev-icon:hover{
+  cursor:pointer;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.heading-sections a {
+  display: inline-block;
+  margin-left: 1.3rem;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.80px;
+}
+
+.heading-sections a:hover{
+  color:rgb(34, 211, 238);
+   transform: translateY(2px) !important;
+  transition: all 0.3s ease !important;
+}
+
+.heading-icons a {
+  /* z-index: 100; */
+  /* margin: auto 1px 0 0; */
+  opacity: 0.8;
+  margin-top: auto;
+  font-size: 1.85rem;
+}
+
+
+
+section {
+  padding: 100px 20px 0 0;
+  height: fit-content;
+  /* background-color: cadetblue; */
+  margin-top: 1rem;
+}
+
+.head{
+ font-family: 'Bahnschrift Light';
+ font-weight: 900;
+ line-height: 1.6rem;
+}
+
+.title{
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.75px;
+}
+
+#resume,#contact{
+  height: 80vh;
+  padding-top: 12rem;
+}
+
+.main-p ul{
+  width: fit-content;
+  padding: 0% 1rem;
+}
+
+section .main-p, #skills li{
+  line-height: 2rem;
+  color: rgb(228, 253, 255);
+  word-spacing: 0.10rem;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+  font-size: 1.15rem;
+  font-family: 'Calibri';
+   box-shadow: 3px 3px 8px rgb(68, 68, 68);
+   padding: 8px;
+}
+
+.section ul ,li,.project p{
+  margin-top: 1rem;
+}
+
+/* #skills{
+  background-color: red;
+  height:;
+} */
+
+#skills ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main {
+  display: flex;
+  gap: 10px;
+  padding: 2rem;
+}
+
+.img{
+  background: url("./uday.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.img-section{
+  margin-top:5rem;
+}
+
+.active{
+  display: inline-block;
+  color: rgb(34, 211, 238);
+  transform: translateY(2px) !important;
+  transition: all 0.3s ease !important;
+  font-size: 1rem;
+}
+.heading-icons a:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.heading-icons i:hover{
+  transform: translateY(1px);
+  transition: all 0.2s ease;
+}
