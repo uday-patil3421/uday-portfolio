@@ -50,7 +50,7 @@ nav a {
 
 .heading-sections a {
   display: inline-block;
-  margin-left: 1.3rem;
+  margin-left: 1.2rem;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 0.80px;
 }
@@ -136,10 +136,14 @@ section .main-p, #skills li{
   background-repeat: no-repeat;
   background-position: center;
   background-size: 99%;
+  margin: 0% 5rem;
+  margin-top: 1rem;
 }
 
 .img-section{
   margin-top:5rem;
+  width: 100% !important;
+  
 }
 
 .active{
