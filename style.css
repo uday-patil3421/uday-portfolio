@@ -132,10 +132,10 @@ section .main-p, #skills li{
 }
 
 .img{
-  background: url("./images/uday.png");
+  background: url("./images/uday.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: 99%;
 }
 
 .img-section{
